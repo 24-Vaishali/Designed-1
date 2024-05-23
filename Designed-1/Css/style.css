@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.right_design{
+    background-color: purple;
+    width: 110px;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    clip-path: polygon(0 0, 100% 0, 80% 50%, 100% 100%, 0 100%);
+    transform: rotate(180deg);
+    transform-origin: 50% 50%;
+}
+.left_design{
+    margin-top: 40px;
+    background-color: purple;
+    width: 110px;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    clip-path: polygon(0 0, 100% 0, 80% 50%, 100% 100%, 0 100%);
+}
+.company_info{
+    text-align: center;
+    margin-top: 60px;
+    border-bottom: 3px dashed purple;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.company_info .company_name{
+    padding: 10px 40px 10px 40px;
+    font-size: 35px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+.company_info p{
+    font-size: 22px;
+    padding: 20px;
+}
+.position{
+    color: purple;
+    font-size: 18px;
+    padding: 10px;
+}
+/* ---------------------- */
+.our_team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our_team h1{
+    padding: 40px;
+    font-size: 30px;
+}
+.our_team h2{
+    padding: 10px 30px 10px 30px;
+    font-size: 30px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+.row{
+    display: flex;
+}
+.person p{
+    text-align: center;
+}
+
+/* Development team */
+.dev_team
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.dev_team h2{
+    padding: 10px 30px 10px 30px;
+    font-size: 30px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Sales team */
+.sales_team{
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right_sales{
+    margin-top: 40px;
+    background-color: purple;
+    width: 110px;
+    height: 80px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    clip-path: polygon(0 0, 100% 0, 80% 50%, 100% 100%, 0 100%);
+    transform: rotate(180deg);
+    transform-origin: 50% 50%;
+}
+.sales_team h2{
+    padding: 10px 30px 10px 30px;
+    font-size: 30px;
+    background-color: purple;
+    color: white;
+    border-radius: 5px;
+}
